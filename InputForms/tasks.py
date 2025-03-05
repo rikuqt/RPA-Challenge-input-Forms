@@ -39,7 +39,7 @@ def read_csv_file():
         fill_form_with_excel_data(row)
     
 def press_start_button():
-    page.click("button.waves-effect.col.s12.m12.l12.btn-large.uiColorButton:has-text('Start')")
+    page.click("button:has-text('Start')")
     
 
 def fill_form_with_excel_data(person_infromation):
